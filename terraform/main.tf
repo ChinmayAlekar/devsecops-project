@@ -69,6 +69,7 @@ resource "aws_security_group" "app_sg" {
 resource "aws_instance" "app_server" {
   ami           = data.aws_ami.amazon_linux.id
   instance_type = var.instance_type
+  key_name = "devsecops-app-key"
  
   vpc_security_group_ids = [aws_security_group.app_sg.id]
  
