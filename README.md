@@ -99,9 +99,7 @@ New Item → Pipeline
 
 Name: devsecops-terraform-scan
 
-Pipeline from SCM → Git
-
-Repository: https://github.com/alekarchinmay/devsecops-assignment.git
+Pipeline script directly entered in jenkins job.
 
 Script Path: jenkins/Jenkinsfile
 
