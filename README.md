@@ -19,7 +19,7 @@ AWS EC2: Cloud infrastructure
 
 Docker: Containerization platform
 
-Node.js: Sample application (optional deployment)
+Node.js: Sample application
 
 🚀 Features
 ✅ Automated Trivy security scanning for Terraform configurations
@@ -27,8 +27,6 @@ Node.js: Sample application (optional deployment)
 ✅ Zero-trust security with IP-restricted access
 
 ✅ Manual approval gate before infrastructure deployment
-
-✅ Encrypted EBS volumes with IMDSv2 enforcement
 
 ✅ Jenkins declarative pipeline with 5 stages
 
@@ -160,18 +158,8 @@ Deploys AWS infrastructure:
 
 EC2 instance (t3.micro)
 
-Security Group with IP restrictions
-
-Encrypted EBS volume (30GB gp3)
-
-Outputs instance details (IP, DNS, URL)
-
 🔒 Security Best Practices
 Infrastructure Security:
-
-✅ IMDSv2 Required: Enforced metadata service v2
-
-✅ Encrypted Storage: EBS volumes encrypted at rest
 
 ✅ Zero-Trust Network: SSH/App access restricted to specific IP
 
